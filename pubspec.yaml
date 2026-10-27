@@ -1,0 +1,21 @@
+name: my_goals_app
+description: برنامه ثبت کارها، آموزش‌ها و پیشرفت اهداف
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.5
+  intl: any
+  flutter_local_notifications: ^17.2.4
+  timezone: ^0.9.4
+
+flutter:
+  uses-material-design: true
